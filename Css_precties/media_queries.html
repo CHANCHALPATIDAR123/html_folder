@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            h1{
+                /* width: 100px;
+                height: 100px; */
+                border: 2px solid black;
+                background-color: yellowgreen;
+                text-align: center;
+            }
+            @media(width:400px){
+             h1{
+                background-color: red;
+                color:white;
+             }
+             div{
+                height: 100px;
+                width: 100px;
+                background-color: blue;
+             }
+            }
+            @media(min-width:700px){   /*300px se kam hone pr change ho jayega*/
+                h1{
+                    background-color: pink;
+                }
+            }
+            @media(max-width:300px){
+                h1{
+                    background-color: coral;
+                }
+            }
+            @media(min-width:200px)and(max-width:300px){
+                div{
+                    background-color: magenta;
+                }
+            }
+            @media(orientation:landscape){
+                div{
+                    background-color: cyan;
+                    color: brown;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>media quaries</h1>
+        <div></div>
+    </body>
+</html>

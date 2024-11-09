@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /* Descendant Selector*/
+        div p{
+            color: red;
+            background-color: yellow;
+        }
+        /* child combinator*/
+        div>span{
+            background-color: pink;
+        }
+        /* Attribute selector*/
+        input[type="text"]{
+            color:red;
+        }
+        /*Pseudo class*/
+        /*hover*/
+        button:hover{
+            background-color: blue;
+            color:aqua;
+        }
+         
+        h3:hover{
+            text-decoration: overline;
+        }
+        /*active class*/
+        button:active{
+            background-color: palevioletred;
+        }
+        /*checked*/
+        input[type="redio"]:checked+label{
+            color: red;
+            font-weight: bold;
+        }
+        /*nth-of-type*/
+        div:nth-of-type(){
+            color:peru;
+            background-color: red;
+        }
+
+    </style>
+    </head>
+    <body>
+        <div><p>i am chanchal patidar. i like coding. </p></div>
+        <div><p>Sakshi is very smart. she is preparing MPPSC</p></div>
+        <!-- ************ ***************************************************************-->
+        <!--child combinator no support inner child attribute-->
+        <div><span><pre>dgeuifcjb wdbe ;ucnir vtnym3ebg</pre></span></div>
+        <div><span>dgeuifcjb wdbe ;ucnir vtnym3ebg </span></div>
+        <!----------------------------------------------------------------------------------------------------------------->
+        <div>
+            <label for="Unit">Unit:</label>
+            <input type="text" name="agree">
+            &nbsp;&nbsp;
+            <label for="Annual Premium:">Annual Premium:</label>
+            <input type="text" name="agree">
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------- -->
+        <button>Sumit</button>
+        <h3><u>sare gama </u></h3>
+        <!-- ------------------------------------------------------------------------------------------------------- -->
+        <button>Sumit1</button>
+        <!-- --------------------------------------------------------------------------------------- -->
+        <div>
+
+            <input type="redio" id="yes">
+            <label for="yes"></label>
+            &nbsp;&nbsp;
+
+            <input type="redio" id="no">
+            <label for="no"></label>
+        </div>
+        <!-------------------------------------------------------------------------------------------------->
+        <div>fwd;4wfhntm4rdnjy rn4misop23rd</div>
+        <div>dgeudih3w'[d, m 3eldd043 mfk69l.s</div>
+        <div>fn785934f665x nrj8k9,dbtcy 85tkd,x</div>
+    </body>
+</html>

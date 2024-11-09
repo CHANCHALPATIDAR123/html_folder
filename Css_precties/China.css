@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(forest.jpg); */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/030/668/492/non_2x/green-background-high-quality-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    color: rgb(255, 239, 239);
+}
+
+.parent-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.parent-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Ensures the logo is on the left and nav on the right */
+    padding: 7px 10px;
+    position: fixed;
+}
+
+.nav-bar ul li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo-section {
+    display: flex;
+    margin-left: 10%;
+    position: fixed;
+
+}
+
+.logo-section span {
+    margin-top: 2%;
+    margin-left: 10%;
+    border: 1px solid #ffffff;
+    height: 20px;
+    width: 20px;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+
+.logo-section span:hover {
+    border-radius: 50%;
+}
+
+/* .logo-section span i{
+    text-align: center;
+  } */
+.logo-section h4 {
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.transparent-section {
+    width: 50%;
+    /* height: 100%; */
+    background-color: #000000a2;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.Non-Transparent {
+    width: 50%;
+    height: 100%;
+}
+
+.transparent-section .trans-content {
+    margin-top: 8%;
+}
+
+.transparent-section .trans-content h1 {
+    font-size: 150px;
+    display: inline;
+    float: right;
+    background-image: url("pool.jpg");
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 2px rgba(209, 193, 193, 0.502);
+}
+
+.transparent-section .trans-content .tour {
+    float: left;
+    margin-left: 5%;
+}
+
+.transparent-section .trans-content .tour button {
+    padding: 7px 15px;
+    border-radius: 2px;
+    border: none;
+    font-weight: 15px;
+}
+
+.Non-Transparent .big-content {
+    margin-top: 27%;
+}
+
+.Non-Transparent .big-content h1 {
+    margin-bottom: 0;
+
+    font-size: 150px;
+    display: inline;
+}
+
+.Non-Transparent .big-content h2 {
+    font-size: 40px;
+}
+
+footer {
+    width: 100%;
+    position: sticky;
+    /* Change this from fixed to relative */
+    background-color: rgba(33, 57, 33, 0.608);
+    bottom: 0;
+    /* Only needed if position is fixed */
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-container .footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container .footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container {
+    padding: 20px 0;
+}
+
+.footer-container .copyright {
+    width: 100%;
+    text-align: left;
+}

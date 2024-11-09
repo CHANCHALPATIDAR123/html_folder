@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    /* Centers home, about, and blog */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    /* Aligns content on left, center, and right */
+    align-items: center;
+    padding: 0 10px;
+    /* Adds some padding to the left and right sides of the navbar */
+}
+
+a.sp {
+    padding: 5px 5px;
+    /* Adds internal space to home, about, and blog links */
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    /* Adds space between home, about, and blog */
+}
+
+.just {
+    /* margin-left: auto; */
+    margin-left: 55px;
+    /* Pushes Justified Content to the right */
+    color: white;
+}
+
+.btn {
+    width: 90px;
+    height: 30px;
+    background-color: skyblue;
+    border-radius: 8px;
+}
+
+.nav1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* Ensures contact is on left and justified content on right */
+}

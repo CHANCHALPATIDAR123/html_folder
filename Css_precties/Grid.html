@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .contenar{
+                height: 600px;
+                width: 300px;
+                background-color: skyblue;
+                display: grid;
+                /* grid-template-rows: 50px 50px 50px 50px;
+                grid-template-columns: 200px 200px  ; */
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-columns: repeat(5,1fr);
+                 grid-gap:10px;
+            }
+            .item{
+                /* height: 100px;
+                width: 50px; */
+                background-color: greenyellow;
+                border: 2px solid red;
+                text-align: center;
+            }
+            .one{
+                grid-column: 1;
+                grid-column: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grid playground</h1>
+        <div class="contenar">
+            <div class="item">1</div>
+            <div class="item one">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </div>
+    </body>
+</html>
